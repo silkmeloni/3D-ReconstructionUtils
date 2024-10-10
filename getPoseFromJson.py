@@ -56,7 +56,7 @@ def save_rotation_translation_as_npy(shots, output_dir):
         print("translation:", translation)
 
         # 保存为npy文件
-        npy_filename = f"{output_dir}/image_{index:03}.npy"
+        npy_filename = f"{output_dir}/{image_name}.npy"
         np.save(npy_filename, {'rotation': rotation, 'translation': translation})
         print(f"Saved {npy_filename}")
 
