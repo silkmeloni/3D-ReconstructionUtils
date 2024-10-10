@@ -1,0 +1,2 @@
+colmap model_converter --input_path /path/to/bin_files --output_path /path/to/output_txt --output_type TXT
+#开个终端输这个，通常input和output路径相同
